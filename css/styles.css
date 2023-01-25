@@ -82,15 +82,22 @@ body {
                     padding-right: 16px;
                       }
                     }
+@media screen and (max-width: 768px) {
+  .batton_logo_header {
+    display: none;
+}
 
+
+}
                     @media screen and (max-width: 1200px) {
                         .nav-list {
                             display: none;
                         }
-                        .batton_logo_header {
-                            display: none;
-                        }
+                        
                     }
+
+
+
 
                     .logo_picture {
                       width: 40px;
@@ -144,5 +151,121 @@ body {
                     }
 .heder_conteiner_logo {
   margin-top: 20px;
+  margin-bottom: 51px;
 }
 
+.nav-item_modal {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+align-items: center;
+text-align: center;
+
+}
+.nav-link {
+  color:#f4f4fd
+}
+.nav-item_modal:not(:last-child) {
+margin-bottom: 32px;
+}
+
+.iogo_btn_header {
+
+  width: 152px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+  
+  background: #F8D24E;
+  border-radius: 10px;
+}
+.iogo_btn_header:hover {
+background-color: #0A8817;
+color: #f4f4fd;
+}
+.nav-list_menu {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.nav-link:hover {
+  color: #F8D24E;
+}
+.nav-link:focus {
+  color: #0A8817
+}
+
+
+@media screen and (min-width: 768px) {
+  .heder_conteiner_logo {
+    justify-content: space-between;
+    align-items: flex-end;
+
+  }
+  .conteiner_logo-bnt {
+    align-items: center;
+  padding-bottom: 3px;
+  display: flex;
+}
+.nav-рeader {
+  display: flex;
+    }
+    .mobile-menu-open{
+      margin-bottom: 3px;
+      display: flex;
+    }
+    .iogo_grup-btn {
+      display: flex;
+    }
+    .iogo_btn_header {
+      margin-left: 32px;
+    }
+  .logo-momile {
+    display: none;
+  }
+  .nav-link {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+font-family: 'Montserrat';
+font-style: normal;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-menu-open {
+    display: none;
+    }
+    .heder_conteiner_logo {
+      justify-content: space-between;
+      align-items: flex-end;
+
+    }
+    .logo_picture {
+      width: 60px;
+      height: 65px;
+    }
+    .conteiner_logo-bnt {
+      align-items: center;
+    padding-bottom: 3px;
+    display: flex;
+    margin-left: 306px;
+    }
+    .nav-list {
+      margin-right: 203px;
+      display: flex;
+    }
+    .nav-item:not(:last-child) {
+      margin-right: 28px;
+      
+    }
+    .nav-рeader {
+      display: flex;
+        }
+        .nav-link {
+          font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+        }
+  }

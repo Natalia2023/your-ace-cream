@@ -281,5 +281,6 @@ line-height: 20px;
     background-color: #f4f4fd;
     border: 2px solid #F8D24E;
     border-radius: 10px;
+    visibility: hidden;
 
   }

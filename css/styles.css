@@ -282,5 +282,12 @@ line-height: 20px;
     border: 2px solid #F8D24E;
     border-radius: 10px;
     visibility: hidden;
+opacity: 0;
+  }
+
+  .bae-now.is-hidden-prod {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 
   }

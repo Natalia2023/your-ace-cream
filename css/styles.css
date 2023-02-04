@@ -196,7 +196,19 @@ color: #f4f4fd;
 .nav-link:focus {
   color: #0A8817
 }
-
+.mobale-menu-open_icon {
+  margin-top: 5px;
+}
+.bay_now-item {
+  height: 186px;
+    width: 132px;
+    border: solid #96AF8C;
+    border-radius: 50% 50% 10% 10%;
+}
+.team-img {
+margin-top: -5px;
+    margin-left: -2px;
+}
 
 @media screen and (min-width: 768px) {
   .heder_conteiner_logo {
